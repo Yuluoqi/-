@@ -216,12 +216,15 @@ proxy-groups:
     interval: 300
     lazy: true
     include-all: true
-  - icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/KR.png
-    lazy: true
-    name: KR韩国
+  - name: KR 韩国
     type: url-test
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
     use:
       - MyProxy
+    filter: 韩国
+    url: "http://www.apple.com/library/test/success.html"
+    interval: 300
+    lazy: true
     include-all: true
 #远程规则集合
 rule-providers:
